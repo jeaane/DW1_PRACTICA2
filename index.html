@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contador JS</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="header">
       <h1>Contador JS</h1>
     </div>
 
-    <div class="container-contador">
-      <div>
-        <p class="contador-value" id="contador">0</p>
+    <div class="main-container">
+      <div class="container-contador">
+        <div>
+          <p class="contador-value" id="contador">0</p>
+        </div>
+        <div>
+          <button onclick="incrementar()">Incrementar</button>
+          <button>Decrementar</button>
+          <button>Reiniciar</button>
+        </div>
       </div>
-      <div>
-        <button id="incrementar">Incrementar</button>
-        <button id="decrementar">Decrementar</button>
-        <button id="reiniciar">Reiniciar</button>
+
+      <div class="container-contador">
+        <div>
+          <p class="contador-value" id="contador-2">0</p>
+        </div>
+        <div>
+          <button onclick="incrementar2()">Incrementar</button>
+          <button>Decrementar</button>
+          <button>Reiniciar</button>
+        </div>
       </div>
     </div>
   </body>
